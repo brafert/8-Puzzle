@@ -18,7 +18,7 @@ No installation is required, the queue module is part of Python's standard libra
 	   `./8-Puzzle.py`
      
       On Mac:
-	   `python3 ./8-Puzzle.py`
+	   `python3 8-Puzzle.py`
 
  4. Enter a start state. This must be an 8-Puzzle, at the moment, no other size will work. Any configuration can be used, as long as the state contains an even number of [inversions](https://www.cs.bham.ac.uk/~mdr/teaching/modules04/java2/TilesSolvability.html). The file `puzzle-config.txt` contains two start and goal states that can be copy and pasted into the terminal. Use the second pair for a quicker response time. If you wish to enter your own, follow the format of the states in the `puzzle-config.txt` file by leaving a space between the first and second, and second and third tiles in each row. Seperate the rows onto their own lines and use an underscore `_` to represent the blank space/tile. Please note, the more complex the start and goal states, the longer the program may take to run.
  5. Enter a goal state. Follow the format for entering a start state. 
